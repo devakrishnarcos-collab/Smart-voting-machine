@@ -87,19 +87,6 @@ The system operates through the following sequence:
 - **Protection:** Circuit safeguards prevent component damage
 - **PCB Layout:** Optimized design minimizes noise and enhances reliability
 
-### Block Diagram Components
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                  WORKING CYCLE                          │
-├──────────┬──────────┬──────────┬──────────┬──────────┐
-│  Voter   │  Logic   │ D Flip-  │  Vote    │ Display  │
-│  Input   │  Gates   │  Flops   │ Counters │  Units   │
-│ Buttons  │ (7408,   │ (IC4013) │(IC4026)  │ (7-seg)  │
-│          │  7432)   │          │          │          │
-└──────────┴──────────┴──────────┴──────────┴──────────┘
-```
-
 ---
 
 ## Hardware Requirements
